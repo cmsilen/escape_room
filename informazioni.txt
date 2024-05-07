@@ -1,0 +1,33 @@
+SIGNIFICATO DEI CODICI UTILIZZATI
+	ER errore
+	TS tempo scaduto
+	OK richiesta esaudita correttamente
+	NF not found
+	NC not catchable
+	NS no space
+	LK locked
+	NI no items
+	AT already taken
+	RO requires object
+	NU not unlocked
+	NL not locked
+	NT not taken
+	WI win
+	GO go player 1
+	G2 go player 2
+
+RICHIESTE E RISPOSTE
+
+NOME RICHIESTA	FORMATO RICHIESTA		FORMATO RISPOSTA	DIMENSIONE IN BYTE
+look		look [object | location]	<codice><descrizione>	2 + MAX_DESCRIPTION_LENGTH
+take		take <object>			<codice>		2
+use		use <object1> [object2]		<codice><descrizione>	2 + MAX_DESCRIPTION_LENGTH
+objs		objs				<codice><descrizione>	2 + MAX_DESCRIPTION_LENGTH
+end		end				nessuna risposta	0
+enigma		enigma <object>			<codice><descrizione>	2 + MAX_DESCRIPTION_LENGTH
+unlock		unlock <object> <risposta>	<codice><descrizione>	2 + MAX_DESCRIPTION_LENGTH
+time		time				<secondi>		16 (protocollo binary)
+tokens		tokens				<presi><totali>		16 + 16 (protocollo binary)
+deposit		dep <object>			<codice>		2
+port		port				<codice><porta>		2 + MAX_NAME_LENGTH
+setport		setp <porta>			nessuna risposta	0

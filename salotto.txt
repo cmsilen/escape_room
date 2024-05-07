@@ -1,0 +1,100 @@
+Salotto
+1
+240
+8
+chiave
+una normale chiave ma non si sa cosa apra
+0
+1
+botola
+una botola bloccata da un lucchetto
+1
+0
+bottiglia
+bottiglia di vetro con all'interno un **foglio** arrotolato
+2
+1
+foglio
+foglio arrotolato con scritto qualcosa, per poter leggere devi tirarlo fuori
+-1
+0
+torcia
+una torcia che emette raggi UV
+3
+1
+quadro
+sul quadro è raffigurata una natura morta
+4
+0
+porta
+una normale porta di legno. Non si apre
+5
+0
+chiave_grande
+chiave di considerevoli dimensioni
+6
+1
+3
+start
+ti trovi dentro un salotto, sotto i tuoi piedi c'è un ++tappeto++ e di fronte a te c'è un ++tavolino++. Sulla tua destra c'è un **quadro**. In un angolo si trova una **chiave_grande**
+tappeto
+sotto il tappeto si trova una **botola**
+tavolino
+sul tavolino si trova una **chiave** ed una **torcia**
+7
+0
+anche se sono al buio rimangono attraenti, cosa sono?
+calamite
+risposta sbagliata
+corretto! ora puoi prendere la chiave
+-1
+-1
+0
+1
+nella botola ci sta un piccolo scompartimento che contiene una **bottiglia**
+NULL
+non succede nulla...
+hai aperto la botola!
+0
+1
+0
+1
+sul foglio c'è scritto il codice 1753
+NULL
+non succede nulla...
+hai tirato fuori il foglio dalla bottiglia
+-1
+3
+0
+0
+8943, 0385, ...
+1753
+risposta sbagliata
+esatto! adesso puoi prendere la torcia
+-1
+-1
+0
+1
+i raggi UV rivelano sul quadro la frase "tutte le strade portano a..."
+NULL
+non succede nulla...
+sul quadro sta comparendo qualcosa...
+4
+5
+0
+1
+la porta è aperta
+NULL
+non succede nulla...
+corretto! la porta si è aperta ed hai trovato un TOKEN!
+7
+6
+1
+0
+la chiave non la puoi sollevare finchè non pronunci la parola d'ordine:
+roma
+non è la parola d'ordine...
+esatto! ora puoi prendere chiave_grande
+-1
+-1
+0

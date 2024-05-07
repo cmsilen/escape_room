@@ -1,0 +1,122 @@
+test
+3
+300
+15
+test_inv_0
+oggetto per testare le funzionalità dell'inventario
+-1
+1
+test_inv_1
+oggetto per testare le funzionalità dell'inventario
+-1
+1
+test_inv_2
+oggetto per testare le funzionalità dell'inventario
+-1
+1
+test_inv_3
+oggetto per testare le funzionalità dell'inventario
+-1
+1
+test_inv_4
+oggetto per testare le funzionalità dell'inventario
+-1
+1
+test_inv_5
+oggetto per testare le funzionalità dell'inventario
+-1
+1
+test_inv_6
+oggetto per testare le funzionalità dell'inventario
+-1
+1
+test_eni_0
+oggetto per testare l'enigma di tipologia 0 (indovinello)
+0
+1
+test_eni_1_1
+oggetto per testare l'enigma di tipologia 1 (utilizzo di un solo oggetto)
+1
+1
+test_eni_1_2
+oggetto per testare l'enigma di tipologia 1 (utilizzo di due oggetti) con test_target
+2
+1
+test_target
+oggetto la quale descrizione cambierà risolvendo gli altri enigmi ed utilizzabile con test_eni_1_2 e test_eni_1_2_t
+-1
+1
+test_pickup
+oggetto che non è possibile inserire nell'inventario
+-1
+0
+test_eni_0_t
+oggetto per testare l'enigma di tipologia 0 (indovinello) che restituisce un token
+3
+1
+test_eni_1_1_t
+oggetto per testare l'enigma di tipologia 1 (utilizzo di un solo oggetto) che restituisce un token
+4
+1
+test_eni_1_2_t
+oggetto per testare l'enigma di tipologia 1 (utilizzo di due oggetti) con test_target che restituisce un token
+5
+1
+4
+start
+location presenti: ++test_loc_0++, ++test_loc_1++, ++test_loc_2++
+test_loc_0
+location che contiene gli oggetti per testare l'inventario: **test_inv_0**, **test_inv_1**, **test_inv_2**, **test_inv_3**, **test_inv_4**, **test_inv_5**, **test_inv_6**
+test_loc_1
+location che contiene l'oggetto per testare il pickup: **test_pickup**
+test_loc_2
+location che contiene gli oggetti per testare gli enigmi: **test_eni_0**, **test_eni_1_1**, **test_eni_1_2**, **test_eni_0_t**, **test_eni_1_1_t**, **test_eni_1_2_t**, **test_target**
+6
+0
+indovinello di test la cui risposta è test_0
+test_0
+risposta errata
+enigma risolto
+-1
+-1
+0
+1
+descrizione cambiata dall'enigma eni_1_1
+NULL
+non succede nulla...
+l'oggetto **test_target** ha una nuova descrizione
+10
+10
+0
+1
+descrizione cambiata dall'enigma eni_1_2
+NULL
+non succede nulla...
+l'oggetto **test_target** ha una nuova descrizione
+10
+10
+0
+0
+indovinello di test la cui risposta è test_0_t
+test_0_t
+risposta errata
+enigma risolto, hai ricevuto un token
+-1
+-1
+1
+1
+descrizione cambiata dall'enigma eni_1_1_t
+NULL
+non succede nulla...
+l'oggetto **test_target** ha una nuova descrizione
+10
+10
+1
+1
+descrizione cambiata dall'enigma eni_1_2_t
+NULL
+non succede nulla...
+l'oggetto **test_target** ha una nuova descrizione
+10
+10
+1
